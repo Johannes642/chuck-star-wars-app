@@ -5,7 +5,6 @@ cd sovtech_chuck-swapi-frontend
 ## Frontend
 cd sovtech_chuck-swapi-frontend
 
-Recommended with yarn.
 ### `https://localhost:3000`
 
 ## API (Open API)
