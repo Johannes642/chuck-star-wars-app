@@ -2,10 +2,10 @@ git clone https://github.com/Johannes642/sovtech-assignment
 # Chuck Norris & Star Wars App
 ### .NET CORE 3.1
 cd sovtech_chuck-swapi-frontend
+### `https://localhost:5001(SSL)`/`http://localhost:5000`
 ## Frontend
 cd sovtech_chuck-swapi-frontend
 
-Recommended with yarn.
 ### `https://localhost:3000`
 
 ## API (Open API)
@@ -39,7 +39,7 @@ CHUCK & SWAPI SEARCH
                 ...
 ```
 ## SWAPI
-### `https://localhost:5000/swapi/people`
+### `https://localhost:5001/swapi/people`
  - requires bearer token from login
 ```json 
 [
@@ -54,7 +54,7 @@ CHUCK & SWAPI SEARCH
 ```
 ## CHUCK & SWAPI SEARCH
 
-### `https://localhost:5000/search?query=chuck`
+### `https://localhost:5001/search?query=vader`
 
 ```json
 [
@@ -65,6 +65,15 @@ CHUCK & SWAPI SEARCH
                     "value": "In a fight between Batman and Darth Vader, the winner would be Chuck Norris."
                 },
                 ...
+            ]
+        },
+        "swapi": {
+            "results": [
+                {
+                    "name": "Darth Vader"
+                }
+            ]
+        }
 ```
 
 By Johannes van der Merwe
