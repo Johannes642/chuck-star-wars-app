@@ -1,11 +1,10 @@
 git clone https://github.com/Johannes642/sovtech-assignment
 # Chuck Norris & Star Wars App
 ### .NET CORE 3.1
-`Start .NET Core 3 API`
+cd sovtech_chuck-swapi-frontend
 ## Frontend
-- Bootstrapped with create-react-app
-
-Start React-app recommended with yarn
+cd sovtech_chuck-swapi-frontend
+Recommended with yarn.
 ### `https://localhost:3000`
 
 ## API (Open API)
