@@ -47,10 +47,10 @@ export default function FullSearch(props) {
         <p></p>
         :
         (
-          swResults['results'].length > 0 ? (
+          (swResults['results'] !== null && swResults['results'].length > 0) ? (
             swResults['results'].map((characters, index) => {
               return (
-                <div>
+                <div key={index}>
                   <p key={index}>🌘{characters.name}</p>
                 </ div>
               )
@@ -66,13 +66,13 @@ export default function FullSearch(props) {
           </center>
           :
           (
-            chuckResults['result'].length > 0 ? (
+            (chuckResults['result'] !== null && chuckResults['result'].length > 0) ? (
               chuckResults['result'].map((norisses, index) => {
                 return (
-                  <div>
+                  <div key={index}>
                     <p key={index}>🤠{norisses.value}</p>
                   </ div>
-                )
+                );
               })
             )
               : <center><h1>Chuck Norris: Norrisults</h1></center>
