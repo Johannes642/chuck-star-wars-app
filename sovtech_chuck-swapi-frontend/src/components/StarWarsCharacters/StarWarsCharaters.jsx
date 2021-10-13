@@ -22,7 +22,7 @@ export default function StarWarsCharaters() {
       }
     }
     setLoading(true);
-    const response = await axios.get('http://localhost:5000/swapi/people', config);
+    const response = await axios.get('https://localhost:5001/swapi/people', config);
     setCharacters(response.data.results);
     setLoading(false);
   }
