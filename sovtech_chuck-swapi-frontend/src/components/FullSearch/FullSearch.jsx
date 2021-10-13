@@ -32,7 +32,7 @@ export default function FullSearch(props) {
       }).catch(err => {
         setChuckResults();
         setSwResults();
-        setLoading('error');
+        setLoading(false);
 
         console.error(err);
       })
@@ -42,9 +42,12 @@ export default function FullSearch(props) {
     <div style={{
       margin: '40px 60px', overflow: 'hidden'
     }}>
-      {loading === false &&
+
+      {loading === true ?
+        <p></p>
+        :
         (
-          swResults['results'] ? (
+          swResults['results'].length > 0 ? (
             swResults['results'].map((characters, index) => {
               return (
                 <div>
@@ -53,7 +56,7 @@ export default function FullSearch(props) {
               )
             })
           )
-            : <h1>Star Wars: No results</h1>
+            : <center><h1>Star Wars: No results</h1></center>
         )
       }
       {
@@ -63,7 +66,7 @@ export default function FullSearch(props) {
           </center>
           :
           (
-            chuckResults['result'] ? (
+            chuckResults['result'].length > 0 ? (
               chuckResults['result'].map((norisses, index) => {
                 return (
                   <div>
@@ -72,7 +75,7 @@ export default function FullSearch(props) {
                 )
               })
             )
-              : <h1>Chuck Norris: Norrisults</h1>
+              : <center><h1>Chuck Norris: Norrisults</h1></center>
           )
       }
     </div >

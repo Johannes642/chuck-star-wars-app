@@ -7,9 +7,9 @@ namespace sovtech_assignment.Entities
 {
     public class Chuck
     {
-        public List<Json> Result { get; set; }
+        public List<ChuckJson> Result { get; set; }
     }
-    public class Json
+    public class ChuckJson
     {
         public string Value { get; set; }
       //  public string Id { get; set; }

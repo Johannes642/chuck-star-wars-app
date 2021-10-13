@@ -7,9 +7,9 @@ namespace sovtech_assignment.Entities
 {
     public class People
     {
-        public List<Result> results { get; set; }
+        public List<PeopleJson> results { get; set; }
     }
-    public class Result
+    public class PeopleJson
     {
         public string Name { get; set; }
     }

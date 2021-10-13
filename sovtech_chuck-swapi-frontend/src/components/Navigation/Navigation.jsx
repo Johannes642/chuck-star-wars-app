@@ -29,10 +29,14 @@ export default function Navigation(props) {
   return (
     <>
       <nav className={styles.navContainer}>
-        <Link className={styles.navElements} to='/jokes'>🤠Chuck Norris Jokes</Link>
-        <Link className={styles.navElements} to='/characters'>🌘Star Wars Characters</Link>
-        <input className={styles.searchInput} type="text" placeholder="Jokes and Characters" ref={searchInput} onKeyUp={keyHandler} required />
-        <input className={styles.searchButton} type="button" placeholder="Search API's" ref={searchBtn} onClick={handleSearch} value="Search" />
+        <div className={styles.navElementsContainer}>
+          <Link className={styles.navElements} to='/jokes'>🤠Chuck Norris Jokes</Link>
+          <Link className={styles.navElements} to='/characters'>🌘Star Wars Characters</Link>
+        </div>
+        <div className={styles.searchContainer}>
+          <input className={styles.searchInput} type="text" placeholder="Jokes and Characters" ref={searchInput} onKeyUp={keyHandler} />
+          <input className={styles.searchButton} type="button" placeholder="Search API's" ref={searchBtn} onClick={handleSearch} value="Search" />
+        </div>
       </nav >
     </>
   )

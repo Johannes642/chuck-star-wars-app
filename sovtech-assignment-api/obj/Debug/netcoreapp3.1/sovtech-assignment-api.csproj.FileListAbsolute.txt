@@ -45,3 +45,4 @@ D:\Projects\Professional\SovTech\sovtech\sovtech-assignment-api\obj\Debug\netcor
 D:\Projects\Professional\SovTech\sovtech\sovtech-assignment-api\obj\Debug\netcoreapp3.1\sovtech_assignment_api.dll
 D:\Projects\Professional\SovTech\sovtech\sovtech-assignment-api\obj\Debug\netcoreapp3.1\sovtech_assignment_api.pdb
 D:\Projects\Professional\SovTech\sovtech\sovtech-assignment-api\obj\Debug\netcoreapp3.1\sovtech-assignment-api.genruntimeconfig.cache
+D:\Projects\Professional\SovTech\sovtech\sovtech-assignment-api\obj\Debug\netcoreapp3.1\sovtech-assignment-api.csproj.AssemblyReference.cache
