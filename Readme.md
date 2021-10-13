@@ -2,6 +2,7 @@ git clone https://github.com/Johannes642/sovtech-assignment
 # Chuck Norris & Star Wars App
 ### .NET CORE 3.1
 cd sovtech_chuck-swapi-frontend
+### `https://localhost:5001`
 ## Frontend
 cd sovtech_chuck-swapi-frontend
 
