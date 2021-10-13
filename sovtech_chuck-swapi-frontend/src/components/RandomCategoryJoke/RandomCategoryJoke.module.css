@@ -1,0 +1,16 @@
+.buttonAnother{
+  color: wheat;
+  font-size: 17px;
+  background-color: transparent;
+  border: solid wheat thin;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.buttonAnother:hover{
+  cursor: pointer;
+  color: white;
+
+  border: solid white thin;
+
+}

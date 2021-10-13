@@ -1,0 +1,43 @@
+.navContainer{
+  border-bottom: solid salmon thin;
+  background-color: rgb(20, 19, 24);
+  padding: 20px;
+}
+
+.navElements{
+  margin: 20px;
+}
+
+.navElements:hover{
+  color: white;
+}
+
+.searchInput, textarea{
+   margin-left: 20px;
+   background-color: transparent;
+   border: solid wheat thin;
+   border-radius: 4px 0px 0px 4px;
+   padding: 3px;
+   color: wheat;
+}
+
+.searchInput:hover{
+  border: solid white thin;
+  padding: 3px;
+}
+
+.searchButton{
+  border: solid wheat thin;
+  border-left: none;
+  color: wheat;
+  border-radius: 0px 4px 4px 0px; 
+  padding: 3px;
+  background-color: transparent;
+}
+
+.searchButton:hover{
+  border: solid white thin;
+  border-left: none;
+  color: white;
+  cursor: pointer;
+}
