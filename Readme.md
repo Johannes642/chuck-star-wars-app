@@ -44,11 +44,10 @@ CHUCK & SWAPI SEARCH
 ```json 
 [
     {
-        "chuck": {
-            "result": [
+        "swapi": {
+            "results": [
                 {
-                    "value": "In a fight between Batman and Darth Vader, the winner would be Chuck Norris."
-                },
+                    "name": "Darth Vader"
                 ...
 ]
 ```
