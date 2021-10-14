@@ -48,6 +48,7 @@ CHUCK & SWAPI SEARCH
             "results": [
                 {
                     "name": "Darth Vader"
+                },
                 ...
 ]
 ```
