@@ -1,5 +1,7 @@
 git clone https://github.com/Johannes642/chuck-star-wars-app
 # Chuck Norris & Star Wars App
+## TODO
+Update TO 5.0
 ### .NET CORE 3.1
 cd sovtech_chuck-swapi-frontend
 ### `https://localhost:5001(SSL)`/`http://localhost:5000`
