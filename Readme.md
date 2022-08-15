@@ -1,4 +1,4 @@
-git clone https://github.com/Johannes642/chuck-star-wars-app
+git clone <git-app-url>
 # Chuck Norris & Star Wars App
 ## TODO
 Update TO 5.0
