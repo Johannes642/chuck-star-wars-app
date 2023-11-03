@@ -66,5 +66,5 @@ CHUCK & SWAPI SEARCH
                 },
                 ...
 ```
-
-By Johannes van der Merwe
+_
+By Johannes van der Merwe 🚀
